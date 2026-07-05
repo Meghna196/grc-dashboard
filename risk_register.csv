@@ -1,0 +1,13 @@
+Risk_ID,Domain,Risk_Description,Likelihood,Impact,Risk_Score,Risk_Owner,Status,Target_Date,Control_Reference,Notes
+APO-001,APO,Third-party vendor lacks SOC 2 attestation,4,5,20,CISO,Open,2026-09-30,APO10.04,Critical SaaS vendor processes customer PII; contract renewal in Q3
+APO-002,APO,No formal information security strategy approved by leadership,3,4,12,CISO,In Progress,2026-10-15,APO02.01,Draft strategy in review with steering committee
+APO-003,APO,Shadow IT: unsanctioned SaaS tools in use by marketing team,4,3,12,IT Director,Open,2026-11-30,APO13.01,CASB discovery scan found 27 unapproved apps
+BAI-001,BAI,Uncontrolled production change process,4,4,16,IT Director,Open,2026-08-01,BAI06.01,Emergency changes bypass CAB approval 40% of the time
+BAI-002,BAI,No rollback plan documented for ERP upgrade,2,5,10,ERP Program Manager,In Progress,2026-08-15,BAI07.03,Rollback runbook drafted; pending DR environment test
+DSS-001,DSS,No documented IR playbook for ransomware,3,5,15,IR Lead,In Progress,2026-07-15,DSS02.02,Tabletop exercise scheduled; playbook 60% complete
+DSS-002,DSS,MFA not enforced for remote access VPN,4,5,20,Security Engineering Lead,Open,2026-07-31,DSS05.04,Phased rollout approved; contractors not yet covered
+DSS-003,DSS,Critical servers missing patches older than 90 days,4,4,16,Infrastructure Manager,Open,2026-06-15,DSS05.03,Patch window conflicts with production SLAs; 14 servers affected
+DSS-004,DSS,Disaster recovery plan not tested in over 24 months,3,4,12,Infrastructure Manager,Open,2026-12-01,DSS04.04,Last full failover test Feb 2024
+MEA-001,MEA,No continuous compliance monitoring for PCI DSS scope,3,4,12,Compliance Manager,In Progress,2026-09-01,MEA03.03,Evaluating automated evidence collection tooling
+MEA-002,MEA,Internal audit findings not tracked to closure,2,3,6,GRC Manager,Closed,2026-05-30,MEA04.07,Findings tracker implemented in ServiceNow; verified by audit
+EDM-001,EDM,No board-level cyber risk reporting cadence,2,4,8,CISO,Open,2026-10-31,EDM03.02,Quarterly risk report template proposed to audit committee

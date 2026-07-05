@@ -1,0 +1,29 @@
+=== GRC RISK REGISTER SUMMARY ===
+Generated: 2026-07-05 | Total risks: 12
+
+-- Risk Status Breakdown --
+  Closed: 1
+  In Progress: 4
+  Open: 7
+
+-- Average Risk Score by COBIT Domain --
+  APO: 14.7 avg score (3 risks)
+  BAI: 13.0 avg score (2 risks)
+  DSS: 15.8 avg score (4 risks)
+  EDM: 8.0 avg score (1 risks)
+  MEA: 9.0 avg score (2 risks)
+
+-- Critical Risks (Score >= 15) --
+  [APO-001] Third-party vendor lacks SOC 2 attestation
+    Score: 20 | Owner: CISO | Status: Open | Target: 2026-09-30
+  [DSS-002] MFA not enforced for remote access VPN
+    Score: 20 | Owner: Security Engineering Lead | Status: Open | Target: 2026-07-31
+  [BAI-001] Uncontrolled production change process
+    Score: 16 | Owner: IT Director | Status: Open | Target: 2026-08-01
+  [DSS-003] Critical servers missing patches older than 90 days
+    Score: 16 | Owner: Infrastructure Manager | Status: Open | Target: 2026-06-15
+  [DSS-001] No documented IR playbook for ransomware
+    Score: 15 | Owner: IR Lead | Status: In Progress | Target: 2026-07-15
+
+-- Overdue Remediations (past target, not Closed) --
+  [DSS-003] Critical servers missing patches older than 90 days (target 2026-06-15, Open)
